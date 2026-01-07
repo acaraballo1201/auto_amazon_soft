@@ -1,56 +1,64 @@
-# ---------------------------
-# Node / npm
-# ---------------------------
+# =========================
+# Node / NPM
+# =========================
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# ---------------------------
+# =========================
 # Playwright
-# ---------------------------
+# =========================
 playwright-report/
 test-results/
-.blob-report/
-trace.zip
-trace/
+.vscode-test/
 
-# ---------------------------
-# Cucumber
-# ---------------------------
-reports/
-cucumber-report.json
-cucumber-report.html
+# =========================
+# Cucumber / Reports
+# =========================
+src/reports/cucumber-report.json
+src/reports/html/
+src/reports/report/
+src/reports/screenshots/
+src/reports/videos/
 
-# ---------------------------
-# Environment
-# ---------------------------
+# =========================
+# Environment / Secrets
+# =========================
 .env
 .env.*
-!.env.example
+*.local
 
-# ---------------------------
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
 # OS
-# ---------------------------
+# =========================
 .DS_Store
 Thumbs.db
 
-# ---------------------------
+# =========================
 # IDEs
-# ---------------------------
+# =========================
 .vscode/*
-!.vscode/extensions.json
 !.vscode/settings.json
+!.vscode/extensions.json
 
 .idea/
 *.iml
 
-# ---------------------------
-# Build / dist
-# ---------------------------
-dist/
-build/
+# =========================
+# Coverage
+# =========================
 coverage/
 
-# ----
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
