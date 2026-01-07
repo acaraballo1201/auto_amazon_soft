@@ -106,4 +106,8 @@ Se toman automáticamente por cada step
 Se adjuntan al reporte HTML
 Se guardan en:
 
+<<<<<<< HEAD
 src/reports/screenshots/
+=======
+src/reports/screenshots/
+>>>>>>> b949d3d (proyecto auto pw)
